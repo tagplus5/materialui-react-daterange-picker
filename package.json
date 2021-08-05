@@ -4,7 +4,8 @@
   "description": "React date range picker using MATERIAL-UI",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
+    "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files",
+    "pub": "npm version patch && npm run build && npm publish"
   },
   "repository": {
     "type": "git",
