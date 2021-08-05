@@ -15,8 +15,8 @@ export const chunks = (array, size) => (
 export const combine = (...args) => args.filter(identity).join(' ');
 
 export const getDaysInMonth = (date) => {
-    const startWeek = startOfWeek(startOfMonth(date));
-    const endWeek = endOfWeek(endOfMonth(date));
+    const startWeek = startOfWeek(startOfMonth(date), { weekStartsOn: 1 });
+    const endWeek = endOfWeek(endOfMonth(date), { weekStartsOn: 1 });
     const days = [];
     for (let curr = startWeek; isBefore(curr, endWeek);) {
         days.push(curr);
