@@ -1,0 +1,22 @@
+{
+  "name": "materialui-react-daterange-picker",
+  "version": "1.0.0",
+  "description": "React date range picker using MATERIAL-UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tagplus5/materialui-react-daterange-picker"
+  },
+  "author": "https://github.com/tagplus5",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.23.0",
+    "react": "^17.0.2"
+  }
+}
