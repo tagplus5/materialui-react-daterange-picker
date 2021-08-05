@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { addMonths, isSameDay, isWithinRange, isAfter, isBefore, isSameMonth, addYears, max, min } from 'date-fns';
 import { getValidatedMonths, parseOptionalDate } from '../utils';
 import { defaultRanges } from '../defaults';
