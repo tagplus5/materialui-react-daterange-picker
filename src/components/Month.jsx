@@ -1,3 +1,4 @@
+import React from 'react';
 import { getDate, isSameMonth, isToday, format, isWithinRange } from 'date-fns';
 import { Paper, Grid, Typography, makeStyles } from '@material-ui/core';
 import { chunks, getDaysInMonth, isStartOfRange, isEndOfRange, inDateRange, isRangeSameDay } from '../utils';

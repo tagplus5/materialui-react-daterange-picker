@@ -1,3 +1,4 @@
+import React from 'react';
 import { IconButton, Typography, makeStyles } from '@material-ui/core';
 import { combine } from '../utils';
 
