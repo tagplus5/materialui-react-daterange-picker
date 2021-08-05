@@ -1,6 +1,6 @@
 {
   "name": "materialui-react-daterange-picker",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "React date range picker using MATERIAL-UI",
   "main": "dist/index.js",
   "scripts": {
